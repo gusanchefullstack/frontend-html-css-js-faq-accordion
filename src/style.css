@@ -1,1 +1,14 @@
 @import "tailwindcss";
+
+.accordion-item {
+  @apply border-b border-zinc-200;
+}
+
+.accordion-item-header {
+  @apply flex items-center justify-between;
+}
+
+.accordion-item-content {
+  @apply text-zinc-600;
+}
+
