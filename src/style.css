@@ -4,7 +4,7 @@
   @apply border-b border-purple-100;
 }
 .faq-item-header {
-  @apply flex items-center justify-between text-purple-950 font-semibold text-lg leading-[21px] mt-6;
+  @apply flex items-center justify-between text-purple-950 font-semibold text-lg leading-[21px] mt-6 hover:cursor-pointer hover:text-fuchsia-600;
 }
 .faq-item-content {
   @apply text-[#8b6990] text-base my-6 leading-6;
