@@ -32,8 +32,8 @@ Users should be able to:
 
 ### Links
 
-- Solution URL: [Add solution URL here]
-- Live Site URL: [Add live site URL here]
+- Solution URL: [https://www.frontendmentor.io/solutions/frontend-mentor---faq-accordion-solution-2YngVaBtmW]
+- Live Site URL: [https://frontend-html-css-js-faq-accordion.vercel.app/]
 
 ## My process
 
