@@ -1,11 +1,20 @@
 @import "tailwindcss";
 
 .faq-item:not(:last-child) {
-  @apply border-b border-purple-100 w-[520px];
+  @apply border-b border-purple-100 w-[279px] md:w-[520px];
 }
 .faq-item-header {
-  @apply flex items-center justify-between text-purple-950 font-semibold text-lg leading-[21px] my-6 hover:cursor-pointer hover:text-fuchsia-600 ;
+  @apply py-6 flex items-center justify-between gap-6 text-purple-950 font-semibold text-base hover:cursor-pointer hover:text-fuchsia-600;
 }
+
 .faq-item-content {
-  @apply text-[#8b6990] text-base leading-6 mb-6 pr-10; 
+  @apply text-[#8b6990] text-sm md:text-base pb-6 leading-[1.5] md:leading-6; 
+}
+
+.plus-icon {
+  @apply w-6 h-6 md:w-[30px] md:h-[30px];
+}
+
+.minus-icon {
+  @apply w-6 h-6 md:w-[30px] md:h-[30px];
 }
